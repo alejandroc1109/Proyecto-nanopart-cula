@@ -56,6 +56,8 @@ st.write("Water temperature [K]", Tamb)
 
 if st.button("Click here to start the simulation"):
     st.write('Simulation started')
+    if st.button('Finish simulation'):
+        st.session_state.stop = True
     
     #T de partícula
     Tnp = [] 
