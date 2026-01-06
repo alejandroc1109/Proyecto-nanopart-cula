@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 import streamlit as st 
-from matplotlib.animation import FFMpegWriter
-from matplotlib.animation import FuncAnimation, PillowWriter
 import time
 
 
@@ -59,10 +56,6 @@ st.write("Water temperature [K]", Tamb)
 
 if st.button("Click here to start the simulation"):
     st.write('Simulation started')
-    if st.button('Finish simulation'):
-        st.session_state.stop = True
-
-
     
     #T de partícula
     Tnp = [] 
