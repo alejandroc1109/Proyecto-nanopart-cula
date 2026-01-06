@@ -1,6 +1,7 @@
 streamlit
-numpy
+numpy>=1.26
 matplotlib
+
 
 
 
