@@ -144,15 +144,3 @@ if st.button("Click here to start the simulation"):
             ax.set_title(f"Heat diffusion vs time = {frame*dt:.1f} s")
             plot_area.pyplot(fig)
             time.sleep(0.01)
-            
-        
-        
-        
-        
-        
-   
-
-
-
-
-
